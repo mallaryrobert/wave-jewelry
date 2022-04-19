@@ -12,7 +12,7 @@ header {
 	display: flex;
   justify-content: space-between;
   /* basic styling */
-  padding: 1.5 rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   background-color: #FFE2D1;
   border-bottom: 1rem solid #89B0AE;
 
@@ -61,7 +61,7 @@ header .logo {
 }
 
 .hours{
-	padding:.5rem 1.5rem 3rem 1.5rem;
+	padding:1.5rem 1.5rem 3rem 1.5rem;
 	background-color:#F5F5F5; 
 }
 address{
@@ -127,8 +127,10 @@ nav {
   
   .menu-close {
 	position: fixed;
-	right: 2.5rem;
-	top: 2.5rem;
+	right: 1.5rem;
+	top: 3rem;
+	font-size: 2rem;
+	font-weight: 400;
 	
   }
   
@@ -184,15 +186,17 @@ li {
 	  padding: 2rem;
 	}
 
-	.service .service {
+	.services .service {
 		width: 32%;
 	}
 	.main-content {
 	  width: 60%;
-}
+	}
 	main .side-content {
 	  width: 35%;
-} }
+	}
+
+}
 	
 /* styles for wide screen */
  
@@ -254,6 +258,7 @@ h5 {
 	font-size: 2rem
 	
 }
+
 h6 {
 	color:#1D1D1F;
 	font-family: 'Poppins', sans-serif;
@@ -264,22 +269,23 @@ h6 {
 }
 /* Adjusting screen size */
 
-/* @media screen and (min-width:20em){
+ @media screen and (min-width:20em){
 	h1{
 		font-size: 2rem;
 	}
-}*/
-/*@media screen and (min-width:30em){
+}
+@media screen and (min-width:30em){
 
-p{
-	font-size: 2rem;
+	p{
+	font-size: 1.5rem;
 	}
-}*/
+}
 
-.hours img{
-	max-width: 100%;
+
+.location img{
+	width: 100%;
 	border-radius: 16px;
-	padding-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .hours dd {
@@ -289,6 +295,22 @@ p{
 .hours {
 	font-size: 1.5rem;
 }
+
+@media screen and (min-width: 40em){
+	.hours {
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 2rem;
+	}
+	.hoursoperation{
+		width: 50%;
+	}
+	.location{
+		width: 50%;
+	}
+}
+
+
  dl{
 	 text-align:center;
 	 padding: 0.5rem;

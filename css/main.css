@@ -127,8 +127,10 @@ nav {
   
   .menu-close {
 	position: fixed;
-	right: 2.5rem;
-	top: 2.5rem;
+	right: 1.5rem;
+	top: 3rem;
+	font-size: 2rem;
+	font-weight: 400;
 	
   }
   

@@ -12,7 +12,7 @@ header {
 	display: flex;
   justify-content: space-between;
   /* basic styling */
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem 1.5rem 0;
   background-color: #FFE2D1;
   border-bottom: 1rem solid #89B0AE;
 
@@ -41,8 +41,8 @@ header .logo {
 
 .hero-text{
 	position:absolute;
-	bottom: 2.25rem;
-	right: 1rem;
+	bottom: 2.5rem;
+	right: 2.5rem;
 	text-align: right;
 
 }
@@ -123,6 +123,7 @@ nav {
 	color: #fff;
 	text-transform: capitalize;
 	cursor: pointer;
+	transform: translateY(-.5rem);
   }
   
   .menu-close {
